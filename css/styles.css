@@ -1,0 +1,58 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  margin: 0;
+  padding: 1.5rem 2rem 0.6rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: hsl(0, 36%, 70%);
+  margin: auto 1.3rem auto;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  margin: 1.5rem;
+  width: 30%;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.description {
+  display: block;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.were {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  display: block;
+}
+
+.email-input {
+  border-radius: 1.5rem;
+  border-color: hsl(0, 80%, 86%);
+  font-size: 0.8rem;
+  margin: 1rem 2.5rem 2.5rem;
+  padding-left: 1rem;
+  width: 75%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
