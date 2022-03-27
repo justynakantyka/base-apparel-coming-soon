@@ -48,7 +48,7 @@ p {
 .input-box {
   display: flex;
   width: 80%;
-  margin: 1rem 2.5rem;
+  margin: 1rem auto;
   height: 3rem;
 }
 
