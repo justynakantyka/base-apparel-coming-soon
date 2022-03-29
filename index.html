@@ -20,7 +20,10 @@
 </head>
 <body>
   <img class ="logo" src="./images/logo.svg" alt="logo-svg">
-  <img class ="hero-img" src="./images/hero-mobile.jpg" alt="hero-mobile-img">
+  <picture class="hero-img">
+    <source media="(min-width: 1255px)" srcset="./images/hero-desktop.jpg" alt ="hero-desktop-img">
+    <img src="./images/hero-mobile.jpg " alt="hero-mobile-img">
+  </picture>
   <div class="description">
     <h1><span class="were">We're</span> coming soon</h1>
 
