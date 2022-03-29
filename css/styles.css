@@ -4,18 +4,15 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8rem;
   margin: 0;
-  padding: 1.5rem 2rem 0.6rem;
   text-transform: uppercase;
 }
 
 p {
   color: hsl(0, 36%, 70%);
-  margin: auto 1.3rem auto;
-  padding-bottom: 1rem;
 }
 
 ::placeholder {
@@ -32,14 +29,13 @@ p {
   width: 30%;
 }
 
-.hero-img {
-  width: 100%;
+.mobile-img {
+  min-width: 100%;
 }
 
 .description {
   display: block;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  padding: 4rem 2rem 1rem 2rem;
   text-align: center;
 }
 
@@ -51,7 +47,7 @@ p {
 
 .input-box {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: 1rem auto;
   height: 3rem;
 }
@@ -82,17 +78,25 @@ p {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1255px) {
+@media (min-width: 1000px) {
   .logo {
     width: 10%;
+    margin: 4rem auto 7rem 8rem;
   }
 
   .hero-img {
     float: right;
-    width: 50%;
+    max-width: 50%;
+    margin-left: 2rem;
   }
 
   .description {
     width: 50%;
+    text-align: left;
+    margin: 0rem 2rem 2rem 8rem;
   }
-}
+
+  .input-box {
+    margin: 0;
+    width: 60%;
+  }
