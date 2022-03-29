@@ -81,3 +81,18 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 1255px) {
+  .logo {
+    width: 10%;
+  }
+
+  .hero-img {
+    float: right;
+    width: 50%;
+  }
+
+  .description {
+    width: 50%;
+  }
+}
