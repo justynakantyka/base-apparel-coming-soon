@@ -23,8 +23,11 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
+Mobile device: \
+![](./screenshots/mobile.jpg)
 
-![](./screenshot.jpg)
+Desktop:\
+![](./screenshots/desktop.jpg)
 
 ### Links
 
