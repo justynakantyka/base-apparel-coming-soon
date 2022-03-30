@@ -31,7 +31,7 @@ Desktop:\
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/justynakantyka/base-apparel-coming-soon
 - Live Site URL: 
 
 ## My process
