@@ -23,12 +23,15 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
+Mobile device: \
+![](./screenshots/mobile.jpg)
 
-![](./screenshot.jpg)
+Desktop:\
+![](./screenshots/desktop.jpg)
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/justynakantyka/base-apparel-coming-soon
 - Live Site URL: 
 
 ## My process
