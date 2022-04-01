@@ -7,6 +7,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 
 ## Overview
 
