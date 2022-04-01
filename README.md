@@ -7,8 +7,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
 
 ## Overview
 
@@ -33,8 +31,3 @@ Desktop:\
 
 - Solution URL: https://github.com/justynakantyka/base-apparel-coming-soon
 - Live Site URL: 
-
-## My process
-
-### Built with
-- 
