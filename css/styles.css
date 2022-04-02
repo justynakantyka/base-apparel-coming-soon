@@ -60,6 +60,9 @@ p {
   padding-left: 1rem;
 }
 
+.error-sign {
+}
+
 .email-error {
   color: hsl(0, 93%, 68%);
   display: inline-block;

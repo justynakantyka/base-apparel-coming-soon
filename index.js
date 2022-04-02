@@ -16,7 +16,8 @@ function inputValidation(userEmail) {
   }
   else {
     document.querySelector(".email-error").innerHTML = "Please provide a valid email";
-    document.querySelector(".email-input").style.borderColor = "#a8323e";
+    document.querySelector(".error-sign").style.hidden = false;
+    document.querySelector(".email-input").style.borderColor = "hsl(0,93%,68%)";
     console.log("Please provide a valid email");
   }
 }
