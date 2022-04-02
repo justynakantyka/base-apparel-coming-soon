@@ -45,8 +45,9 @@ p {
   display: block;
 }
 
-.input-box {
+#email-form {
   display: flex;
+  flex-wrap: wrap;
   margin: 1rem auto;
   height: 3rem;
 }
@@ -56,6 +57,17 @@ p {
   border-radius: 1.5rem;
   flex: 1;
   font-size: 0.8rem;
+  padding-left: 1rem;
+}
+
+.error-sign {
+}
+
+.email-error {
+  color: hsl(0, 93%, 68%);
+  display: inline-block;
+  margin: 0.3rem 0 0;
+  width: 100%;
   padding-left: 1rem;
 }
 
@@ -101,7 +113,7 @@ p {
     margin: 0rem 2rem 2rem 6rem;
   }
 
-  .input-box {
+  #email-form {
     margin: 0;
     width: 65%;
   }
