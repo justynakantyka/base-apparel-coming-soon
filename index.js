@@ -14,11 +14,12 @@ function inputValidation(userEmail) {
   if (userEmail.match(REGEX_SIGNS)) {
     console.log("OK");
     document.querySelector(".email-error").innerHTML = "";
+    document.querySelector(".error-sign").style.visibility = "hidden";
     document.querySelector(".email-input").style.borderColor = "hsl(0,80%,86%)";
   }
   else {
     document.querySelector(".email-error").innerHTML = "Please provide a valid email";
-    document.querySelector(".error-sign").style.visibility = visible;
+    document.querySelector(".error-sign").style.visibility = "visible";
     document.querySelector(".email-input").style.borderColor = "hsl(0,93%,68%)";
   }
 }
