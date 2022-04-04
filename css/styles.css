@@ -61,7 +61,7 @@ p {
 }
 
 .error-sign {
-  visibility: visible;
+  visibility: hidden;
   position: absolute;
   top: 25%;
   right: 25%;
@@ -71,7 +71,7 @@ p {
   color: hsl(0, 93%, 68%);
   display: inline-block;
   margin: 0.3rem 0 0;
-  padding-left: 1rem;
+  padding-left: 5%;
   text-align: left;
   width: 100%;
 }
