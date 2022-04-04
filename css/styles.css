@@ -37,6 +37,7 @@ p {
   display: block;
   padding: 4rem 2rem 1rem 2rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .were {
@@ -60,26 +61,29 @@ p {
 }
 
 .error-sign {
+  visibility: visible;
   position: absolute;
-  top: 1rem;
-  right: 5rem;
+  top: 25%;
+  right: 25%;
 }
 
 .email-error {
   color: hsl(0, 93%, 68%);
   display: inline-block;
   margin: 0.3rem 0 0;
-  width: 100%;
   padding-left: 1rem;
+  text-align: left;
+  width: 100%;
 }
 
 .submit-btn {
+  position: absolute;
   background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   height: 100%;
   border-radius: 3rem;
   border: 0.1px solid hsl(0, 80%, 86%);
-  width: 5rem;
-  margin-left: -5rem;
+  right: 0;
+  width: 20%;
 }
 
 .submit-btn:hover {
@@ -112,12 +116,12 @@ p {
   .description {
     width: 50%;
     text-align: left;
-    margin: 0rem 2rem 2rem 6rem;
+    margin: 0rem 2rem 13rem 6rem;
   }
 
   #email-form {
     margin: 0;
-    width: 65%;
+    width: 70%;
   }
 
   .attribution {
