@@ -56,7 +56,7 @@ p {
   border-radius: 1.5rem;
   font-size: 0.8rem;
   padding-left: 1rem;
-  width: 90%;
+  width: 100%;
   height: 3rem;
 }
 
@@ -108,7 +108,7 @@ p {
   .hero-img {
     float: right;
     max-width: 50%;
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   .description {
