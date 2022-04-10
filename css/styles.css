@@ -84,22 +84,13 @@ p {
 }
 
 .submit-btn {
-<<<<<<< HEAD
+  position: absolute;
   background-image: linear-gradient(135deg, var(--soft-pink), var(--strong-pink));
   height: 100%;
   border-radius: 3rem;
   border: 0.1px solid var(--soft-pink);
-  width: 5rem;
-  margin-left: -4rem;
-=======
-  position: absolute;
-  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-  height: 100%;
-  border-radius: 3rem;
-  border: 0.1px solid hsl(0, 80%, 86%);
   right: 0;
   width: 20%;
->>>>>>> c78060cabfa9b638c52223ccb4f7dfcf1bb4e637
 }
 
 .submit-btn:hover {
