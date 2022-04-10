@@ -32,18 +32,15 @@
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
 
-    <div class="input-box">
+    <form id="email-form" onsubmit="return false;" novalidate>
       <input class="email-input" type="email" placeholder="Email Address">
+      <img class="error-sign" src="./images/icon-error.svg" alt="arrow-svg">
       <button class="submit-btn" type="submit">
         <img src="./images/icon-arrow.svg" alt="arrow-svg">
       </button>
-    </div>
+      <p class="email-error"></p>
+    </form>
   </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">J Kantyka</a>.
-    </p>
-  </footer>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 </html>
