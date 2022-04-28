@@ -68,6 +68,7 @@ p {
 
 .email-input {
   border: 0.1px solid var(--grayish-pink);
+  background-color: var(--very-soft-pink);
   border-radius: 1.75rem;
   font-size: 0.8rem;
   padding-left: 1rem;
