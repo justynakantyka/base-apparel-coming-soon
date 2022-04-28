@@ -18,9 +18,9 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  letter-spacing: 0.8rem;
+  letter-spacing: 1.083rem;
   text-transform: uppercase;
 }
 
@@ -106,10 +106,15 @@ p {
   box-shadow: -1px 10px 30px 0px var(--soft-pink);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 0.677rem;
+  }
+
   .logo {
     width: 10%;
-    margin: 4rem auto 3rem 8rem;
+    margin: 4rem auto 0 10rem;
   }
 
   .hero-img {
@@ -120,7 +125,8 @@ p {
   .description {
     width: 50%;
     text-align: left;
-    margin: 0rem 2rem 0rem 6rem;
+    margin: 0rem 2rem 0rem 10rem;
+    padding: 8.5rem 2rem 1rem 0;
     padding-right: 12rem;
   }
 }
