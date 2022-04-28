@@ -19,19 +19,15 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 </head>
 <body>
-  <img class ="logo" src="./images/logo.svg" alt="logo-svg">
+  <img class ="logo" src="./images/logo.svg" alt="base-apparel-logo">
   <picture class="hero-img">
     <source media="(min-width: 1000px)" srcset="./images/hero-desktop.jpg" alt ="hero-desktop-img">
     <img class="mobile-img" src="./images/hero-mobile.jpg " alt="hero-mobile-img">
   </picture>
-  <div class="description">
+  <main class="description">
     <h1><span class="were">We're</span> coming soon</h1>
-
-    <p>
-      Hello fellow shoppers! We're currently building our new fashion store.
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
-
+    <p>Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
     <form id="email-form" onsubmit="return false;" novalidate>
       <input class="email-input" type="email" placeholder="Email Address">
       <img class="error-sign" src="./images/icon-error.svg" alt="arrow-svg">
@@ -40,7 +36,7 @@
       </button>
       <p class="email-error"></p>
     </form>
-  </div>
+  </main>
   <script src="index.js" charset="utf-8"></script>
 </body>
 </html>

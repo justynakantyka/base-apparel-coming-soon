@@ -12,7 +12,6 @@ form.addEventListener("submit", function(e) {
 
 function inputValidation(userEmail) {
   if (userEmail.match(REGEX_SIGNS)) {
-    console.log("OK");
     document.querySelector(".email-error").innerHTML = "";
     document.querySelector(".error-sign").style.visibility = "hidden";
     document.querySelector(".email-input").style.borderColor = "hsl(0,80%,86%)";
