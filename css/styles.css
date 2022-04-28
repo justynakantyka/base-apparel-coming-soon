@@ -67,7 +67,7 @@ p {
 
 .email-input {
   border: 0.1px solid var(--grayish-pink);
-  border-radius: 1.5rem;
+  border-radius: 1.75rem;
   font-size: 0.8rem;
   padding-left: 1rem;
   width: 100%;
@@ -98,6 +98,7 @@ p {
   border: 0.1px solid var(--soft-pink);
   box-shadow: 0px 15px 20px var(--dark-grayish-pink);
   width: 20%;
+  height: 3rem;
 }
 
 .submit-btn:hover {
@@ -128,5 +129,18 @@ p {
     margin: 0rem 2rem 0rem 10rem;
     padding: 8.5rem 2rem 1rem 0;
     padding-right: 12rem;
+  }
+
+  #email-form {
+    height: 3.5rem;
+  }
+
+  .email-input {
+    height: 3.5rem;
+  }
+
+  .submit-btn {
+    height: 3.5rem;
+    width: 22%;
   }
 }
