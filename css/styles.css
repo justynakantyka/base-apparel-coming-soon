@@ -10,6 +10,9 @@
 }
 
 body {
+  background-image: url('.././images/bg-pattern-desktop.svg' );
+  background-position: 0 0;
+  background-repeat: no-repeat;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.8rem;
 }
@@ -46,15 +49,15 @@ p {
 
 .description {
   display: block;
-  padding: 4rem 2rem 1rem 2rem;
   text-align: center;
+  padding: 4rem 2rem 1rem 2rem;
   margin-bottom: 4rem;
 }
 
 .title {
+  display: block;
   color: var(--desaturated-red);
   font-weight: 300;
-  display: block;
 }
 
 #email-form {
@@ -72,10 +75,10 @@ p {
 }
 
 .error-sign {
-  visibility: hidden;
   position: absolute;
   top: 25%;
   right: 25%;
+  visibility: hidden;
 }
 
 .email-error {
