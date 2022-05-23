@@ -30,5 +30,4 @@ Desktop:\
 
 ### Links
 
-- Solution URL: https://github.com/justynakantyka/base-apparel-coming-soon
 - Live Site URL: https://justynakantyka.github.io/base-apparel-coming-soon
